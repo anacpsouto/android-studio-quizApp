@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_second_question">
+    tools:context=".activity_third_question">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,35 +14,35 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Pergunta 2: Qual é a capital de frança? "
+            android:text="Pergunta 3: Qual é a capital da Espanha? "
             android:textSize="20sp" />
 
         <RadioGroup
-            android:id="@+id/radioGroupPergunta2"
+            android:id="@+id/radioGroupPergunta3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lyon" />
+                android:text="Barcelona" />
 
             <RadioButton
-                android:id="@+id/radioButton5"
+                android:id="@+id/radioButton8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Paris" />
+                android:text="Madrid" />
 
             <RadioButton
-                android:id="@+id/radioButton6"
+                android:id="@+id/radioButton9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Marselha" />
+                android:text="Sevilha" />
         </RadioGroup>
 
         <Button

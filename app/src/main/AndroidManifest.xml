@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quiz">
         <activity
+            android:name=".activity_third_question"
+            android:exported="false" />
+        <activity
             android:name=".activity_second_question"
             android:exported="false" />
         <activity
